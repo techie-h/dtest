@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pb;
+
+message request {
+    string query = 1;
+}
+
+message response {
+    string result = 1;
+}
+
+service reverseService {
+    rpc Compute (request) returns (response) {
+    }
+}
+
