@@ -1,4 +1,4 @@
-# Diginex Test
+# Test
 
 ## Tech Stack used:
   ```
